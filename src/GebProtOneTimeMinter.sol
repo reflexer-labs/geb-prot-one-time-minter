@@ -37,7 +37,7 @@ contract GebProtOneTimeMinter is GebAuth {
 
     // --- Admin Functions ---
     /**
-     * @notice Mint predefined amount of prot tokens to mintReceiver.
+     * @notice Mint a predefined amount of prot tokens for mintReceiver.
      * @dev Can run only once.
      */
     function mint() external isAuthorized {
